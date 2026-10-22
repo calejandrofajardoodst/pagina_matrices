@@ -1,5 +1,8 @@
 # Gauss–Jordan · Laboratorio de matrices
 
+[![Tests](https://github.com/calejandrofajardoodst/pagina_matrices/actions/workflows/tests.yml/badge.svg)](https://github.com/calejandrofajardoodst/pagina_matrices/actions/workflows/tests.yml)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/calejandrofajardoodst/pagina_matrices)
+
 Aplicación web para resolver sistemas de ecuaciones lineales de **2×2, 3×3, 4×4 y 5×5** mediante el método de **Gauss–Jordan**. Muestra la matriz aumentada inicial, cada transformación intermedia, la operación entre filas realizada y la forma escalonada reducida final.
 
 Diseño en **dorado y negro**, con tema claro/oscuro, interfaz bilingüe **español/inglés**, fracciones exactas y una visualización paso a paso pensada para estudiar el método.
