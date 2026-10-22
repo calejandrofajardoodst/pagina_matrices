@@ -1,0 +1,32 @@
+{% load static %}
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Página no encontrada | Gauss–Jordan</title>
+  <link rel="icon" type="image/svg+xml" href="{% static 'img/favicon.svg' %}">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body class="error-page">
+  <main class="error-wrap">
+    <a class="brand" href="/">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M8 5H4v22h4M24 5h4v22h-4"/>
+          <path d="M11 11h4M17 11h4M11 16h4M17 16h4M11 21h4M17 21h4"/>
+        </svg>
+      </span>
+      <span class="brand-copy">
+        <span class="brand-name">Gauss–Jordan</span>
+        <span class="brand-tag">Laboratorio de matrices</span>
+      </span>
+    </a>
+    <p class="error-code">404</p>
+    <h1>Esta página no existe.</h1>
+    <p class="error-lede">Puede que el enlace haya cambiado o que la dirección esté mal escrita.</p>
+    <a class="btn btn-primary" href="/">Volver al resolutor</a>
+  </main>
+</body>
+</html>
