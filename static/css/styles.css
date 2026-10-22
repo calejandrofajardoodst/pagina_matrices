@@ -4,6 +4,7 @@
 
 :root {
   --gold: #d6b25e;
+  --gold-text: #d6b25e;
   --gold-bright: #f2d27a;
   --gold-deep: #a77b24;
   --gold-soft: rgba(214, 178, 94, 0.12);
@@ -17,7 +18,7 @@
   --border-strong: rgba(214, 178, 94, 0.38);
   --text: #f4efe3;
   --muted: #a69e8f;
-  --muted-2: #7d7568;
+  --muted-2: #8a8172;
   --danger: #e3796a;
   --danger-soft: rgba(227, 121, 106, 0.12);
   --success: #9ac79a;
@@ -39,9 +40,10 @@
 }
 
 [data-theme="light"] {
-  --gold: #a77c1e;
-  --gold-bright: #8a6210;
-  --gold-deep: #c49a3a;
+  --gold: #b8860b;
+  --gold-text: #8a6210;
+  --gold-bright: #7a560c;
+  --gold-deep: #9a7218;
   --gold-soft: rgba(167, 124, 30, 0.1);
   --bg: #f7f2e6;
   --bg-elevated: #fffdf7;
@@ -53,7 +55,7 @@
   --border-strong: rgba(114, 84, 24, 0.36);
   --text: #19150e;
   --muted: #6f6452;
-  --muted-2: #8a7d68;
+  --muted-2: #6f6452;
   --danger: #b84839;
   --danger-soft: rgba(184, 72, 57, 0.1);
   --success: #3f7444;
@@ -255,7 +257,7 @@ p {
   place-items: center;
   border: 1px solid var(--border-strong);
   border-radius: 13px;
-  color: var(--gold);
+  color: var(--gold-text);
   background:
     linear-gradient(145deg, rgba(214, 178, 94, 0.12), transparent 55%),
     var(--surface);
@@ -443,7 +445,7 @@ p {
 .btn-primary {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, var(--gold-bright), var(--gold) 52%, var(--gold-deep));
+  background: linear-gradient(135deg, #f2d27a, #d6b25e 52%, #a77b24);
   color: #0b0a08;
   box-shadow:
     0 12px 30px rgba(214, 178, 94, 0.2),
@@ -536,7 +538,7 @@ p {
 }
 
 .section-kicker {
-  color: var(--gold);
+  color: var(--gold-text);
   font-size: 0.66rem;
   font-weight: 750;
   letter-spacing: 0.2em;
@@ -547,7 +549,7 @@ p {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  color: var(--gold);
+  color: var(--gold-text);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.19em;
@@ -686,7 +688,7 @@ p {
 .badge .icon {
   width: 14px;
   height: 14px;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 
 .text-link {
@@ -709,7 +711,7 @@ p {
 .text-link .icon {
   width: 17px;
   height: 17px;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 
 .hero-visual {
@@ -786,7 +788,7 @@ p {
   padding: 4px 9px;
   border: 1px solid var(--border-strong);
   border-radius: 999px;
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-mono);
   font-size: 0.58rem;
   letter-spacing: 0.14em;
@@ -1000,7 +1002,7 @@ p {
 }
 
 .matrix-notation {
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-display);
   font-size: 0.9rem;
   font-weight: 500;
@@ -1046,7 +1048,7 @@ p {
 
 .matrix-input-table th.row-label {
   padding-right: 4px;
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-display);
   font-size: 0.76rem;
   font-weight: 600;
@@ -1117,7 +1119,7 @@ p {
   width: 14px;
   height: 14px;
   margin-top: 2px;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 
 .solver-actions {
@@ -1173,7 +1175,7 @@ p {
   border: 1px solid var(--border-strong);
   border-radius: 13px;
   background: var(--gold-soft);
-  color: var(--gold);
+  color: var(--gold-text);
 }
 
 .guide-icon .icon {
@@ -1212,7 +1214,7 @@ p {
   width: 14px;
   height: 14px;
   margin-top: 3px;
-  color: var(--gold);
+  color: var(--gold-text);
 }
 
 .legend-panel h3 {
@@ -1357,7 +1359,7 @@ p {
 }
 
 .solution-chip .var {
-  color: var(--gold);
+  color: var(--gold-text);
   font-size: 0.82em;
 }
 
@@ -1448,7 +1450,7 @@ p {
   border: 1px solid var(--border-strong);
   border-radius: 50%;
   background: var(--panel-solid);
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-mono);
   font-size: 0.71rem;
   box-shadow: var(--shadow-soft);
@@ -1529,7 +1531,7 @@ p {
 }
 
 .step-kind {
-  color: var(--gold);
+  color: var(--gold-text);
   font-size: 0.62rem;
   font-weight: 750;
   letter-spacing: 0.15em;
@@ -1556,7 +1558,7 @@ p {
 
 .step-operation .op-arrow {
   padding: 0 0.08em;
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-body);
   font-size: 0.85em;
 }
@@ -1745,7 +1747,7 @@ p {
 }
 
 .method-number {
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-mono);
   font-size: 0.65rem;
   letter-spacing: 0.12em;
@@ -1768,7 +1770,7 @@ p {
 .method-glyph {
   margin-top: auto;
   padding-top: 23px;
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-display);
   font-size: 1.05rem;
   letter-spacing: 0.01em;
@@ -1904,7 +1906,7 @@ p {
 }
 
 .error-code {
-  color: var(--gold);
+  color: var(--gold-text);
   font-family: var(--font-mono);
   font-size: 0.72rem;
   letter-spacing: 0.2em;
