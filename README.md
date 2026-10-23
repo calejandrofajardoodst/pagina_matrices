@@ -203,6 +203,24 @@ pagina_matrices/
 
 ---
 
+## Equipo
+
+El proyecto se desarrolló en un grupo de 5 integrantes: 3 en backend y 2 en frontend.
+
+| Integrante | Área | Rol |
+| --- | --- | --- |
+| [Nombre 1] | Backend | Núcleo matemático |
+| [Nombre 2] | Backend | API y validaciones |
+| [Nombre 3] | Backend | Despliegue y calidad |
+| [Nombre 4] | Frontend | Estructura y diseño visual |
+| [Nombre 5] | Frontend | Interacción e internacionalización |
+
+> Reemplaza los nombres entre corchetes por los integrantes reales. La descripción completa de responsabilidades, archivos y evidencia de participación está en [docs/EQUIPO.md](docs/EQUIPO.md).
+
+Para contribuir al repositorio, sigue la guía de [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
 ## Uso académico
 
 Proyecto desarrollado para el curso de álgebra lineal. Puedes adaptar los textos, colores y ejemplos desde:
@@ -212,4 +230,4 @@ Proyecto desarrollado para el curso de álgebra lineal. Puedes adaptar los texto
 - `static/js/app.js` para las traducciones y la interacción,
 - `solver/gauss_jordan.py` para el algoritmo.
 
-Si el repositorio se trabaja en grupo, se recomienda crear una rama por integrante y abrir un pull request hacia `main`. El workflow de GitHub Actions ejecuta las pruebas en cada push y pull request.
+Si el repositorio se trabaja en grupo, cada integrante debe crear una rama, abrir un pull request y pedir revisión antes de fusionar. Los comandos exactos están en [CONTRIBUTING.md](CONTRIBUTING.md). El workflow de GitHub Actions ejecuta las pruebas en cada push y pull request.
