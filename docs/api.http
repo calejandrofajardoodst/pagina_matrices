@@ -1,0 +1,66 @@
+### Variables
+@baseUrl = http://127.0.0.1:8000
+@csrfToken = reemplaza-por-el-token-csrf
+
+### Health check
+GET {{baseUrl}}/health/
+
+### Página principal
+GET {{baseUrl}}/
+
+### Sistema con solución única
+POST {{baseUrl}}/api/solve/
+Content-Type: application/json
+X-CSRFToken: {{csrfToken}}
+Cookie: csrftoken={{csrfToken}}
+
+{
+  "size": 2,
+  "matrix": [
+    ["2", "1", "5"],
+    ["1", "-1", "1"]
+  ]
+}
+
+### Sistema con infinitas soluciones
+POST {{baseUrl}}/api/solve/
+Content-Type: application/json
+X-CSRFToken: {{csrfToken}}
+Cookie: csrftoken={{csrfToken}}
+
+{
+  "size": 2,
+  "matrix": [
+    ["1", "1", "2"],
+    ["2", "2", "4"]
+  ]
+}
+
+### Sistema sin solución
+POST {{baseUrl}}/api/solve/
+Content-Type: application/json
+X-CSRFToken: {{csrfToken}}
+Cookie: csrftoken={{csrfToken}}
+
+{
+  "size": 2,
+  "matrix": [
+    ["1", "1", "1"],
+    ["2", "2", "3"]
+  ]
+}
+
+### Intercambio de filas
+POST {{baseUrl}}/api/solve/
+Content-Type: application/json
+X-CSRFToken: {{csrfToken}}
+Cookie: csrftoken={{csrfToken}}
+
+{
+  "size": 3,
+  "matrix": [
+    ["0", "1", "0", "2"],
+    ["1", "0", "0", "1"],
+    ["0", "0", "1", "3"]
+  ]
+}
