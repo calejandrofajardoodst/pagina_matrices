@@ -11,6 +11,24 @@ Diseño en **dorado y negro**, con tema claro/oscuro, interfaz bilingüe **espa�
 
 ---
 
+## Demo en vivo
+
+- **Aplicación desplegada:** <https://pagina-matrices.onrender.com>
+- **Estado del servicio:** <https://pagina-matrices.onrender.com/health/>
+
+> Render en plan gratuito suspende el servicio tras un periodo de inactividad. La primera visita puede tardar unos segundos.
+
+## Documentación
+
+| Documento | Contenido |
+| --- | --- |
+| [docs/DOCUMENTACION_TECNICA.md](docs/DOCUMENTACION_TECNICA.md) | Arquitectura, algoritmo, API, frontend, pruebas y despliegue |
+| [docs/GUIA_EXPOSICION.md](docs/GUIA_EXPOSICION.md) | Guion de la presentación, demo en vivo y preguntas probables |
+| [docs/EQUIPO.md](docs/EQUIPO.md) | Integrantes, roles, archivos y evidencia de participación |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Flujo de ramas, commits, pull requests y pruebas |
+
+---
+
 ## Características
 
 - Resolución exacta con `fractions.Fraction`: no hay errores de redondeo.
@@ -141,6 +159,8 @@ La suite cubre:
 ---
 
 ## Despliegue en Render
+
+La aplicación ya está desplegada en <https://pagina-matrices.onrender.com>. Esta sección documenta cómo reproducir el despliegue.
 
 El repositorio incluye `render.yaml` y `build.sh`, así que el despliegue se puede hacer con un **Blueprint**:
 
