@@ -25,6 +25,7 @@ Diseño en **dorado y negro**, con tema claro/oscuro, interfaz bilingüe **espa�
 | [docs/DOCUMENTACION_TECNICA.md](docs/DOCUMENTACION_TECNICA.md) | Arquitectura, algoritmo, API, frontend, pruebas y despliegue |
 | [docs/GUIA_EXPOSICION.md](docs/GUIA_EXPOSICION.md) | Guion de la presentación, demo en vivo y preguntas probables |
 | [docs/EQUIPO.md](docs/EQUIPO.md) | Integrantes, roles, archivos y evidencia de participación |
+| [docs/CHECKLIST_ENTREGA.md](docs/CHECKLIST_ENTREGA.md) | Verificación final antes de entregar o exponer |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Flujo de ramas, commits, pull requests y pruebas |
 
 ---
