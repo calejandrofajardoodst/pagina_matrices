@@ -50,11 +50,13 @@ Lista de verificación para dar por terminado el proyecto antes de la entrega o 
 
 | Integrante | Rama | PR | Revisado por |
 | --- | --- | --- | --- |
-| [Nombre 1] | `backend/algoritmo` | # | |
-| [Nombre 2] | `backend/api` | # | |
-| [Nombre 3] | `backend/deploy` | # | |
-| [Nombre 4] | `frontend/diseno` | # | |
-| [Nombre 5] | `frontend/interaccion` | # | |
+| Gabriel | `backend/algoritmo` | # | |
+| Carlos | `backend/api` | # | |
+| Samuel | `backend/deploy` | # | |
+| Carlos Fajardo | `frontend/diseno` | # | |
+| Jiostin | `frontend/interaccion` | # | |
+
+> Las ramas de la tabla son las sugeridas para que cada integrante deje su propio pull request. Los PRs de documentación ya fusionados (#1 a #5) sirven como ejemplo del flujo de trabajo.
 
 ## 6. Exposición
 

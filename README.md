@@ -231,13 +231,13 @@ El proyecto se desarrolló en un grupo de 5 integrantes: 3 en backend y 2 en fro
 
 | Integrante | Área | Rol |
 | --- | --- | --- |
-| [Nombre 1] | Backend | Núcleo matemático |
-| [Nombre 2] | Backend | API y validaciones |
-| [Nombre 3] | Backend | Despliegue y calidad |
-| [Nombre 4] | Frontend | Estructura y diseño visual |
-| [Nombre 5] | Frontend | Interacción e internacionalización |
+| Gabriel | Backend | Núcleo matemático |
+| Carlos | Backend | API y validaciones |
+| Samuel | Backend | Despliegue y calidad |
+| Carlos Fajardo | Frontend | Estructura y diseño visual |
+| Jiostin | Frontend | Interacción e internacionalización |
 
-> Reemplaza los nombres entre corchetes por los integrantes reales. La descripción completa de responsabilidades, archivos y evidencia de participación está en [docs/EQUIPO.md](docs/EQUIPO.md).
+> La descripción completa de responsabilidades, archivos y evidencia de participación está en [docs/EQUIPO.md](docs/EQUIPO.md).
 
 Para contribuir al repositorio, sigue la guía de [CONTRIBUTING.md](CONTRIBUTING.md).
 

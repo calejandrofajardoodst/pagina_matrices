@@ -32,11 +32,11 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 
 | Bloque | Minutos | Responsable |
 | --- | --- | --- |
-| 1. Introducción y objetivo | 1 | Frontend (Integrante 4) |
-| 2. El problema y el método | 2 | Backend (Integrante 1) |
-| 3. Demo en vivo | 4 | Frontend (Integrante 5) |
-| 4. El algoritmo por dentro | 3 | Backend (Integrante 1 e Integrante 2) |
-| 5. Arquitectura, pruebas y despliegue | 2 | Backend (Integrante 3) |
+| 1. Introducción y objetivo | 1 | Carlos Fajardo (Frontend) |
+| 2. El problema y el método | 2 | Gabriel (Backend) |
+| 3. Demo en vivo | 4 | Jiostin (Frontend) |
+| 4. El algoritmo por dentro | 3 | Gabriel y Carlos (Backend) |
+| 5. Arquitectura, pruebas y despliegue | 2 | Samuel (Backend) |
 | 6. Cierre y preguntas | 2 | Todo el equipo |
 
 ---
@@ -44,7 +44,7 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 ## 3. Bloque 1 · Introducción y objetivo
 
 **Duración:** 1 minuto.
-**Responsable:** Integrante 4 (Frontend).
+**Responsable:** Carlos Fajardo (Frontend).
 
 **Qué decir:**
 
@@ -59,7 +59,7 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 ## 4. Bloque 2 · El problema y el método
 
 **Duración:** 2 minutos.
-**Responsable:** Integrante 1 (Backend).
+**Responsable:** Gabriel (Backend).
 
 **Qué decir:**
 
@@ -91,7 +91,7 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 ## 5. Bloque 3 · Demo en vivo
 
 **Duración:** 4 minutos.
-**Responsable:** Integrante 5 (Frontend).
+**Responsable:** Jiostin (Frontend).
 
 ### Paso a paso de la demo
 
@@ -123,7 +123,7 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 ## 6. Bloque 4 · El algoritmo por dentro
 
 **Duración:** 3 minutos.
-**Responsables:** Integrante 1 e Integrante 2.
+**Responsables:** Gabriel y Carlos.
 
 **Qué decir:**
 
@@ -147,7 +147,7 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 - `solver/gauss_jordan.py` en GitHub, señalando `solve_system`, `_record_step` y `parse_cell`.
 - Un paso de la línea de tiempo en la web para conectar el código con la interfaz.
 
-**Pregunta puente para el Integrante 2:**
+**Pregunta puente para Carlos:**
 
 > El backend expone un endpoint `POST /api/solve/` que recibe el tamaño y la matriz, valida cada celda y devuelve el resultado en JSON. La página nunca calcula nada: todo lo resuelve Python en el servidor.
 
@@ -156,7 +156,7 @@ Guía práctica para presentar el proyecto **Gauss–Jordan · Laboratorio de ma
 ## 7. Bloque 5 · Arquitectura, pruebas y despliegue
 
 **Duración:** 2 minutos.
-**Responsable:** Integrante 3.
+**Responsable:** Samuel.
 
 **Qué decir:**
 
@@ -247,7 +247,7 @@ El algoritmo funciona para cualquier tamaño, pero la interfaz está limitada a 
 
 ### ¿Cómo se dividió el trabajo?
 
-Tres integrantes en backend y dos en frontend. El detalle de archivos, responsabilidades y ramas está en `docs/EQUIPO.md`.
+Gabriel, Carlos y Samuel trabajaron el backend; Carlos Fajardo y Jiostin, el frontend. El detalle de archivos, responsabilidades y ramas está en `docs/EQUIPO.md`.
 
 ### ¿Qué aprendieron?
 

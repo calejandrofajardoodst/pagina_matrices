@@ -2,7 +2,7 @@
 
 Este documento describe cómo se repartió el trabajo del proyecto **Gauss–Jordan · Laboratorio de matrices** entre los 5 integrantes y qué evidencia deja cada rol en el repositorio.
 
-> **Importante:** reemplaza los nombres entre corchetes por los datos reales del grupo antes de entregar.
+> **Integrantes:** Gabriel, Carlos y Samuel en backend; Carlos Fajardo y Jiostin en frontend.
 
 ---
 
@@ -10,17 +10,17 @@ Este documento describe cómo se repartió el trabajo del proyecto **Gauss–Jor
 
 | Integrante | Área | Rol principal | Rama sugerida |
 | --- | --- | --- | --- |
-| [Nombre 1] | Backend | Núcleo matemático | `backend/algoritmo` |
-| [Nombre 2] | Backend | API y validaciones | `backend/api` |
-| [Nombre 3] | Backend | Despliegue y calidad | `backend/deploy` |
-| [Nombre 4] | Frontend | Estructura y diseño visual | `frontend/diseno` |
-| [Nombre 5] | Frontend | Interacción e internacionalización | `frontend/interaccion` |
+| Gabriel | Backend | Núcleo matemático | `backend/algoritmo` |
+| Carlos | Backend | API y validaciones | `backend/api` |
+| Samuel | Backend | Despliegue y calidad | `backend/deploy` |
+| Carlos Fajardo | Frontend | Estructura y diseño visual | `frontend/diseno` |
+| Jiostin | Frontend | Interacción e internacionalización | `frontend/interaccion` |
 
 ---
 
 ## Backend
 
-### Integrante 1 · Núcleo matemático
+### Gabriel · Núcleo matemático
 
 **Archivos principales**
 
@@ -43,7 +43,7 @@ Este documento describe cómo se repartió el trabajo del proyecto **Gauss–Jor
 - ¿Cómo se detecta que un sistema no tiene solución?
 - ¿Cómo se calcula el rango de la matriz?
 
-### Integrante 2 · API y validaciones
+### Carlos · API y validaciones
 
 **Archivos principales**
 
@@ -68,7 +68,7 @@ Este documento describe cómo se repartió el trabajo del proyecto **Gauss–Jor
 - ¿Qué diferencia hay entre un error 400 y un error 500?
 - ¿Cómo se prueba una vista sin levantar el servidor?
 
-### Integrante 3 · Despliegue y calidad
+### Samuel · Despliegue y calidad
 
 **Archivos principales**
 
@@ -99,7 +99,7 @@ Este documento describe cómo se repartió el trabajo del proyecto **Gauss–Jor
 
 ## Frontend
 
-### Integrante 4 · Estructura y diseño visual
+### Carlos Fajardo · Estructura y diseño visual
 
 **Archivos principales**
 
@@ -125,7 +125,7 @@ Este documento describe cómo se repartió el trabajo del proyecto **Gauss–Jor
 - ¿Cómo se adapta la interfaz a pantallas pequeñas?
 - ¿Qué mejoras de accesibilidad se aplicaron?
 
-### Integrante 5 · Interacción e internacionalización
+### Jiostin · Interacción e internacionalización
 
 **Archivos principales**
 
@@ -167,11 +167,11 @@ Revisa [CONTRIBUTING.md](../CONTRIBUTING.md) para ver los comandos exactos.
 
 | Sección | Minutos | Responsable |
 | --- | --- | --- |
-| Introducción y objetivo | 1 | Integrante 4 |
-| El problema y el método | 2 | Integrante 1 |
-| Demo en vivo | 4 | Integrante 5 |
-| El algoritmo por dentro | 3 | Integrante 1 e Integrante 2 |
-| Arquitectura, pruebas y despliegue | 2 | Integrante 3 |
+| Introducción y objetivo | 1 | Carlos Fajardo |
+| El problema y el método | 2 | Gabriel |
+| Demo en vivo | 4 | Jiostin |
+| El algoritmo por dentro | 3 | Gabriel y Carlos |
+| Arquitectura, pruebas y despliegue | 2 | Samuel |
 | Cierre y preguntas | 2 | Todo el equipo |
 
 La guía detallada está en [GUIA_EXPOSICION.md](GUIA_EXPOSICION.md).
